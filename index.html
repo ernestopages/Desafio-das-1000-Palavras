@@ -15,11 +15,10 @@
             background-color: #00355b;
             color: white;
             scroll-behavior: smooth;
+            margin: 0;
+            padding: 0;
         }
-        .text-regular { font-weight: 400; }
-        .text-bold { font-weight: 700; }
         .bg-brand { background-color: #00355b; }
-        .bg-card { background-color: rgba(255, 255, 255, 0.05); }
         
         @keyframes pulse-custom {
           0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
@@ -43,12 +42,15 @@
   "imports": {
     "react": "https://esm.sh/react@^19.2.3",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/"
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
   }
 }
 </script>
 </head>
 <body>
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
