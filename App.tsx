@@ -12,7 +12,7 @@ const App: React.FC = () => {
     element?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const checkoutLink = "https://checkout.exemplo.com"; // Substituir pelo link real
+  const checkoutLink = "https://indec-digital.mycartpanda.com/checkout/206397069:1";
 
   // Cor personalizada laranja-amarelada
   const highlightColor = "text-[#ff9d00]";
@@ -190,7 +190,7 @@ const App: React.FC = () => {
         <section className="px-5 py-16 bg-white overflow-x-hidden border-y border-gray-100 shadow-inner">
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <div className="space-y-3">
-              <h2 className="text-2xl md:text-3xl font-bold leading-tight max-w-xl mx-auto text-[#00355b]">
+              <h2 className="text-2xl md:text-3xl font-bold leading-tight max-wxl mx-auto text-[#00355b]">
                 JÁ SÃO MAIS DE 5137 PESSOAS COMUNS QUE TESTARAM E APROVARAM O DESAFIO DAS 1000 PALAVRAS!
               </h2>
               <p className="text-sm font-bold text-[#00355b]/60 uppercase tracking-widest max-w-lg mx-auto">
@@ -280,7 +280,7 @@ const App: React.FC = () => {
               </div>
 
               <a href={checkoutLink} className="block w-full">
-                <Button onClick={() => {}} variant="primary" className="w-full text-2xl py-6 animate-pulse-cta shadow-lg">
+                <Button variant="checkout" showIcon={true} className="w-full py-6 animate-pulse-cta">
                   QUERO COMPRAR AGORA
                 </Button>
               </a>
@@ -365,8 +365,8 @@ const App: React.FC = () => {
 
             <div className="flex justify-center pt-8">
               <a href={checkoutLink} className="w-full flex justify-center">
-                <Button onClick={() => {}} variant="primary" className="py-6 px-10 text-xl md:text-2xl animate-pulse-cta">
-                  🔥SIM! QUERO APRENDER AGORA🔥
+                <Button variant="checkout" showIcon={true} className="py-6 px-10 animate-pulse-cta">
+                  QUERO COMPRAR AGORA
                 </Button>
               </a>
             </div>
@@ -410,8 +410,8 @@ const App: React.FC = () => {
           </div>
           <div className="text-center pt-10">
             <a href={checkoutLink} className="flex justify-center w-full">
-              <Button onClick={() => {}} variant="primary" className="animate-pulse-cta py-6 w-full max-w-md">
-                SIM! QUERO APRENDER AGORA
+              <Button variant="checkout" showIcon={true} className="animate-pulse-cta py-6 w-full max-w-md">
+                QUERO COMPRAR AGORA
               </Button>
             </a>
           </div>
