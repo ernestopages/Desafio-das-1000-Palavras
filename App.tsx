@@ -116,7 +116,7 @@ const App: React.FC = () => {
 
             <div className="pt-2 flex justify-center">
               <Button onClick={scrollToOffer} variant="primary" className="animate-pulse-cta">
-                QUERO COMEÇAR O DESAFIO AGORA!
+                QUERO COMEÇAR O DESAFIO
               </Button>
             </div>
           </div>
@@ -132,7 +132,7 @@ const App: React.FC = () => {
               <p>O segredo não é “aprender mais”… é aprender o que realmente é usado no dia a dia.</p>
               <p>No inglês, as 1000 palavras mais usadas dominam mais de 80% das conversas reais.</p>
               <p>Por isso, quando você foca nelas, você começa a entender facilmente o que é falado e finalmente para de sentir que “ouve, ouve… e não entende nada”.</p>
-              <p>Isso significa que, ao dominar apenas essas palavras, você já entende o inglês real do dia a dia e começa a entender filmes, séries e músicas em apenas 7 dias sem precisar passar anos preso em gramática de escolas caras.</p>
+              <p>As 1000 palavras mais frequentes compõem a base de qualquer idioma. Dominá-las é o atalho definitivo.</p>
               
               <div className="bg-[#22c55e]/20 border-l-4 border-[#22c55e] p-5 rounded-r-xl font-bold italic shadow-inner">
                 E é exatamente por isso que muitas pessoas “aprende sozinhas” em casa: jogando jogos online, vendo vídeos, repetindo as mesmas palavras várias vezes sem nem perceber.
@@ -154,7 +154,7 @@ const App: React.FC = () => {
               loading="lazy"
             />
             <Button onClick={scrollToOffer} variant="primary" className="animate-pulse-cta">
-              QUERO APRENDER INGLÊS RÁPIDO
+              QUERO APRENDER INGLÊS
             </Button>
           </div>
         </section>
